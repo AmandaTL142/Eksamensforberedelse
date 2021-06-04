@@ -9,6 +9,5 @@ Playables and play each of their sounds in a sequence.
  */
 
 public interface Playable {
-    public void playSound();
+    void playSound();
 }
-
