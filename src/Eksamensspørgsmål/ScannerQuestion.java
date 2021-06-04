@@ -10,8 +10,9 @@ public class ScannerQuestion {
 
         Scanner sc = new Scanner(file);
 
-        while(sc.hasNextLine()){
-            System.out.println(sc.nextLine());
+        //Oprindeligt havde jeg tallene på hver deres linje i filen, og så brugte jeg nextLine i stedet for nextInt.
+        while(sc.hasNextInt()){
+            System.out.println(sc.nextInt());
         }
     }
 }
